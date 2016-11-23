@@ -39,7 +39,7 @@
 <link href="/css/main.css?v=0.4.5.2" rel="stylesheet" type="text/css" />
 <link href="/vendors/fontdiao/css/fontdiao.css?v=0.0.8" rel="stylesheet" type="text/css" />
 
-  <meta name="keywords" content="WordCloud,javascript," />
+  <meta name="keywords" content="https,ios," />
 
 
 
@@ -57,21 +57,42 @@
 
 
 
-<meta name="description" content="经常在微博或微信的文章中看到漂亮的分析图。我认为在大数据的时代，目前最关键的就是如何让非专业人员轻松的进行数据分析，比如可以象使用office一样制作信息图（infographic），而不是用专业的制图工具。这一步跨过去，看到的将是欣欣向荣的真正大数据时代。
-而这之前，首先缺少的就是，可以让普通开发人员使用的大数据时代的可视化图表组件，比如标签云图，所幸，业界已经有ECharts和WordClou">
+<meta name="description" content="在iOS开发过程中，抓包是常见的必备技能之一。这里我们主要介绍一下Mac下的抓包利器Charles（文中版本：4.0.1）。它可以非常方便的抓取Http/Https请求，从而提高我们的开发效率。本文中不提供破解版安装使用说明（网上一大堆），建议使用正版，官方dmg下载地址：Charlesproxy
+
+破解版:Charlesproxy
+如何抓取Http请求？
+安装完成之后打开Charles，设置端口">
 <meta property="og:type" content="article">
-<meta property="og:title" content="简单美观的文字标签云组件">
-<meta property="og:url" content="http://imjun.me/2015/12/03/beautiful-word-cloud/index.html">
+<meta property="og:title" content="IOS抓包工具">
+<meta property="og:url" content="http://imjun.me/2016/11/23/IOS抓包工具/index.html">
 <meta property="og:site_name" content="Brook's Room">
-<meta property="og:description" content="经常在微博或微信的文章中看到漂亮的分析图。我认为在大数据的时代，目前最关键的就是如何让非专业人员轻松的进行数据分析，比如可以象使用office一样制作信息图（infographic），而不是用专业的制图工具。这一步跨过去，看到的将是欣欣向荣的真正大数据时代。
-而这之前，首先缺少的就是，可以让普通开发人员使用的大数据时代的可视化图表组件，比如标签云图，所幸，业界已经有ECharts和WordClou">
-<meta property="og:image" content="http://bruce.u.qiniudn.com/2014/02/10/wordcloud-cn.jpg">
-<meta property="og:image" content="http://bruce.u.qiniudn.com/2014/02/10/wordcloud-en.jpg">
-<meta property="og:updated_time" content="2015-12-07T14:08:14.000Z">
+<meta property="og:description" content="在iOS开发过程中，抓包是常见的必备技能之一。这里我们主要介绍一下Mac下的抓包利器Charles（文中版本：4.0.1）。它可以非常方便的抓取Http/Https请求，从而提高我们的开发效率。本文中不提供破解版安装使用说明（网上一大堆），建议使用正版，官方dmg下载地址：Charlesproxy
+
+破解版:Charlesproxy
+如何抓取Http请求？
+安装完成之后打开Charles，设置端口">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxzd8HO4wQKRTZicF6oxzLCEibdPdGjBhPDJIibWian96hOtH3Z5MhIO5oqg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxBsnwuJTsuGtyMicyhpClEqPuCFaF23BsAakOuAIYB6xWUkLsXOSqXcQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxoUdRE06NTXuS9poOdgMYwEWCaAG72iaDhSFD7gAtt4Zmbh7GWUmeqqw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxzBTVNCYVer37xpInVpqn5jSyibK0fMv1r30kp9MROMNMCyqHluFHdiaw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_png/foPACGrddJ003YpewINAGSUfQNKAYEbxYeb0ibbAX0rib7kNS0pKUN0MmKibB547micH93ZBPXW4FMn2hPqLic7DEFw/640?wx_fmt=png&wxfrom=5&wx_lazy=1">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_png/foPACGrddJ003YpewINAGSUfQNKAYEbxuJiblccDR6ibtMURPp0R6ibFibMw3UJMrtvbjwNqhiaIian1tHOO84mcHfPA/640?wx_fmt=png&wxfrom=5&wx_lazy=1">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_png/foPACGrddJ003YpewINAGSUfQNKAYEbxcrvvIz4ledS8k7nnBNoCDIW2icL6bjEpjaIqonmXouD6gmvAEAFmrMw/640?wx_fmt=png&wxfrom=5&wx_lazy=1">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbx0eh0kVkox6gcibF6nyRrf6dbJDk7byicSicZQdyHa7O9MlrlRkEEvSPRw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxp1RTrdy3icawiaXF8Ta1bpxqKo98B7eFOtaMqwibTNuwdW7SLMcBxgk9g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxVPFhbl6z5UzkHuAalic4CJsfKyx8ko7AxGVZ38u1PKedGrRWA7tOwaw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxXJNBVXLmvalKClf7HeJOiajnXdAr4RvejXicIqHxsg2zo9yhNxmicRVqg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxU5HRpOricelNSYGLUWGlaOLMzFVB0EV6cj0a7ZibZib34KTgvibjiay4G9g/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxDic8ibNgKXicbXibRhE5dw7PicQFJ55DZJzY5zylSkwusfqK7zz5syRmpzQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1">
+<meta property="og:image" content="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbx6j7Xjf7dDkFEAHZ9icDpv17J04Gh7LmhPGyYKskHO6MHBexfViatSLUg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1">
+<meta property="og:updated_time" content="2016-11-23T05:05:47.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="简单美观的文字标签云组件">
-<meta name="twitter:description" content="经常在微博或微信的文章中看到漂亮的分析图。我认为在大数据的时代，目前最关键的就是如何让非专业人员轻松的进行数据分析，比如可以象使用office一样制作信息图（infographic），而不是用专业的制图工具。这一步跨过去，看到的将是欣欣向荣的真正大数据时代。
-而这之前，首先缺少的就是，可以让普通开发人员使用的大数据时代的可视化图表组件，比如标签云图，所幸，业界已经有ECharts和WordClou">
+<meta name="twitter:title" content="IOS抓包工具">
+<meta name="twitter:description" content="在iOS开发过程中，抓包是常见的必备技能之一。这里我们主要介绍一下Mac下的抓包利器Charles（文中版本：4.0.1）。它可以非常方便的抓取Http/Https请求，从而提高我们的开发效率。本文中不提供破解版安装使用说明（网上一大堆），建议使用正版，官方dmg下载地址：Charlesproxy
+
+破解版:Charlesproxy
+如何抓取Http请求？
+安装完成之后打开Charles，设置端口">
 
 
 
@@ -83,7 +104,7 @@
   };
 </script>
 
-  <title> 简单美观的文字标签云组件 | Brook's Room </title>
+  <title> IOS抓包工具 | Brook's Room </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -259,7 +280,7 @@
             
             
               
-                简单美观的文字标签云组件
+                IOS抓包工具
               
             
           </h1>
@@ -268,8 +289,8 @@
         <div class="post-meta">
           <span class="post-time">
             发表于
-            <time itemprop="dateCreated" datetime="2015-12-03T22:10:40+08:00" content="2015-12-03">
-              2015-12-03
+            <time itemprop="dateCreated" datetime="2016-11-23T11:52:52+08:00" content="2016-11-23">
+              2016-11-23
             </time>
           </span>
 
@@ -278,8 +299,8 @@
               &nbsp; | &nbsp; 分类于
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/前端/" itemprop="url" rel="index">
-                    <span itemprop="name">前端</span>
+                  <a href="/categories/工具/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
                   </a>
                 </span>
 
@@ -294,8 +315,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2015/12/03/beautiful-word-cloud/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2015/12/03/beautiful-word-cloud/" itemprop="commentsCount"></span>
+                <a href="/2016/11/23/IOS抓包工具/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/11/23/IOS抓包工具/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -314,27 +335,65 @@
       
 
       
-        <span itemprop="articleBody"><p>  </p>
-  <div class="entry">
-
-<p>经常在微博或微信的文章中看到漂亮的分析图。我认为在大数据的时代，目前最关键的就是如何让非专业人员轻松的进行数据分析，比如可以象使用office一样制作信息图（infographic），而不是用专业的制图工具。这一步跨过去，看到的将是欣欣向荣的真正大数据时代。</p>
-<p>而这之前，首先缺少的就是，可以让普通开发人员使用的大数据时代的可视化图表组件，比如标签云图，所幸，业界已经有<a href="http://github.com/ecomfe/echarts" target="_blank" rel="external">ECharts</a>和<a href="http://github.com/timdream/wordcloud" target="_blank" rel="external">WordCloud</a>这两大利器，本文只介绍后者。</p>
-<p><img src="http://bruce.u.qiniudn.com/2014/02/10/wordcloud-cn.jpg" alt="中文"></p>
-<p><a id="more"></a></p>
-<p>首先页面必须是html5编写。</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="doctype">&lt;!DOCTYPE html&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">html</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="title">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">meta</span> <span class="attribute">charset</span>=<span class="value">“UTF-8”</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="title">title</span>&gt;</span><span class="tag">&lt;/<span class="title">title</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;/<span class="title">head</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="title">body</span>&gt;</span>    </span><br><span class="line"> <span class="tag">&lt;/<span class="title">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="title">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>引入<a href="http://jquery.com/" target="_blank" rel="external">jQuery</a>和<a href="http://github.com/timdream/wordcloud2.js" target="_blank" rel="external">WordCloud2.js</a>。</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">“src/wordcloud2.js”</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">“//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js”</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-<p>定义canvas容器。</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">&lt;<span class="tag">div</span> id=<span class="string">“canvas-container”</span> align=<span class="string">“center”</span>&gt;</span><br><span class="line"> &lt;<span class="tag">canvas</span> id=<span class="string">“canvas”</span> <span class="attribute">width</span>=<span class="string">“800px”</span> <span class="attribute">height</span>=<span class="string">“600px”</span>&gt;&lt;/canvas&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
-
-<p>绘图。</p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="prolog"> </span><br><span class="line"><span class="atom">var</span> <span class="atom">options</span> = <span class="atom">eval</span>(&#123;</span><br><span class="line">  <span class="string">“list”</span>: [[<span class="string">‘傻猎豹’</span>, <span class="number">10</span>], [<span class="string">‘不如’</span>, <span class="number">9</span>], [<span class="string">‘麻花疼’</span>, <span class="number">7</span>], [<span class="string">‘麻云’</span>, <span class="number">6</span>],[<span class="string">‘李眼红’</span>, <span class="number">4</span>], [<span class="string">‘雷布斯’</span>, <span class="number">5</span>],[<span class="string">‘周红衣’</span>, <span class="number">4</span>],[<span class="string">‘刘墙洞’</span>, <span class="number">3</span>],[<span class="string">‘李国情’</span>, <span class="number">3</span>]],</span><br><span class="line">  <span class="string">“gridSize”</span>: <span class="number">8</span>,</span><br><span class="line">  <span class="string">“weightFactor”</span>: <span class="number">16</span>,</span><br><span class="line">  <span class="string">“fontFamily”</span>: <span class="string">‘Hiragino Mincho Pro, serif’</span>,</span><br><span class="line">  <span class="string">“color”</span>: <span class="string">‘random-dark’</span>,</span><br><span class="line">  <span class="string">“backgroundColor”</span>: <span class="string">‘#f0f0f0’</span>,</span><br><span class="line">  <span class="string">“rotateRatio”</span>: <span class="number">0</span></span><br><span class="line">&#125;);</span><br><span class="line"></span><br><span class="line"><span class="atom">var</span> <span class="atom">canvas</span> = <span class="atom">document</span>.<span class="atom">getElementById</span>(<span class="string">‘canvas’</span>);</span><br><span class="line"></span><br><span class="line"><span class="name">WordCloud</span>(<span class="atom">canvas</span>, <span class="atom">options</span>);</span><br><span class="line"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br></pre></td></tr></table></figure><br>&gt; 至此，全部完毕。执行页面，美丽的云图便展现在你面前，具体的API可以参考<a href="http://github.com/timdream/wordcloud2.js/blob/master/API.md" target="_blank" rel="external">这里</a>。<br><br>下面举个英文的例子，为了美观稍微改变一下参数：<br><br><figure class="highlight prolog"><table><tr><td class="code"><pre><span class="line"><span class="string">“list”</span>: [[<span class="string">‘bruce-sha’</span>, <span class="number">10</span>], [<span class="string">‘buru’</span>, <span class="number">9</span>], [<span class="string">‘tencent’</span>, <span class="number">7</span>], [<span class="string">‘alibaba’</span>, <span class="number">6</span>], [<span class="string">‘baidu’</span>, <span class="number">4</span>], [<span class="string">‘xiaomi’</span>, <span class="number">5</span>],[<span class="string">‘360’</span>, <span class="number">4</span>],[<span class="string">‘jingdong’</span>, <span class="number">3</span>],[<span class="string">‘dangdang’</span>, <span class="number">3</span>],[<span class="string">‘ibruce.info’</span>, <span class="number">1</span>]],</span><br><span class="line"><span class="string">“gridSize”</span>: <span class="number">16</span>,</span><br><span class="line"><span class="string">“weightFactor”</span>: <span class="number">16</span>,</span><br><span class="line"><span class="string">“fontFamily”</span>: <span class="string">‘Times, serif’</span>,</span><br><span class="line"><span class="string">“color”</span>: <span class="string">‘random-light’</span>,</span><br><span class="line"><span class="string">“backgroundColor”</span>: <span class="string">‘#333’</span>,</span><br><span class="line"><span class="string">“rotateRatio”</span>: <span class="number">0</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="http://bruce.u.qiniudn.com/2014/02/10/wordcloud-en.jpg" alt="英文"></p>
-</div></span>
+        <span itemprop="articleBody"><blockquote>
+<p>在iOS开发过程中，抓包是常见的必备技能之一。这里我们主要介绍一下Mac下的抓包利器Charles（文中版本：4.0.1）。它可以非常方便的抓取Http/Https请求，从而提高我们的开发效率。本文中不提供破解版安装使用说明（网上一大堆），建议使用正版，官方dmg下载地址：<a href="https://www.charlesproxy.com/download/" target="_blank" rel="external">Charlesproxy</a></p>
+</blockquote>
+<p>破解版:<br><a href="http://www.waitsun.com/charles-4-0-2.html" target="_blank" rel="external">Charlesproxy</a></p>
+<h2 id="如何抓取Http请求？">如何抓取Http请求？</h2><ul>
+<li>安装完成之后打开Charles，设置端口号:8888（端口号可以自定义）。</li>
+</ul>
+<p>选择“Proxy”菜单下的“Proxy Settings”子菜单。打开“Proxy Settings”对话框：<br><img src="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxzd8HO4wQKRTZicF6oxzLCEibdPdGjBhPDJIibWian96hOtH3Z5MhIO5oqg/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""></p>
+<ul>
+<li>在“Proxy Settings”对话框中设置端口号:8888，并勾选“Enable transparent Http proxying”</li>
+</ul>
+<p><img src="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxBsnwuJTsuGtyMicyhpClEqPuCFaF23BsAakOuAIYB6xWUkLsXOSqXcQ/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""></p>
+<ul>
+<li>打开“网络偏好设置”查看电脑IP地址：</li>
+</ul>
+<p><img src="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxoUdRE06NTXuS9poOdgMYwEWCaAG72iaDhSFD7gAtt4Zmbh7GWUmeqqw/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""></p>
+<ul>
+<li><p>设置手机网络（iOS）<br><img src="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxzBTVNCYVer37xpInVpqn5jSyibK0fMv1r30kp9MROMNMCyqHluFHdiaw/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""></p>
+</li>
+<li><p>打开需要抓包的手机APP，初次使用时，Charles会弹出确认对话框，直接点击”Allow”按钮后就可以看到对应的请求数据</p>
+</li>
+</ul>
+<p><strong>温馨提示</strong>：抓完包之后，请把手机WiFi中的HTTP代理关闭。不然可能造成iOS无法访问网络。</p>
+<h2 id="如何抓取Https请求?">如何抓取Https请求?</h2><ol>
+<li>电脑安装SSL证书</li>
+</ol>
+<p>选中Charles，在“Help”菜单中选择—&gt;“SSL Proxying”—&gt;“Install Charles Root Certificate”会自动打开钥匙串访问窗口<br><img src="http://mmbiz.qpic.cn/mmbiz_png/foPACGrddJ003YpewINAGSUfQNKAYEbxYeb0ibbAX0rib7kNS0pKUN0MmKibB547micH93ZBPXW4FMn2hPqLic7DEFw/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt="">在“钥匙串访问”窗口中找到对应的证书，双击打开。设置“使用证书时”项为：始终信任。<br><img src="http://mmbiz.qpic.cn/mmbiz_png/foPACGrddJ003YpewINAGSUfQNKAYEbxuJiblccDR6ibtMURPp0R6ibFibMw3UJMrtvbjwNqhiaIian1tHOO84mcHfPA/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br>填写管理员密码更新设置。<img src="http://mmbiz.qpic.cn/mmbiz_png/foPACGrddJ003YpewINAGSUfQNKAYEbxcrvvIz4ledS8k7nnBNoCDIW2icL6bjEpjaIqonmXouD6gmvAEAFmrMw/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1" alt=""></p>
+<ol>
+<li>手机安装证书（使用Safari方式）</li>
+</ol>
+<p>请确保手机已经设置好手动代理（具体方式参照上面HTTP抓包设置方式）。</p>
+<p>在手机Safari浏览器中输入下面的链接地址：<code>http://charlesproxy.com/getssl</code>。手机会自动跳转安装“Charles Proxy SSL Proxying”描述文件。如下图所示：<br><img src="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbx0eh0kVkox6gcibF6nyRrf6dbJDk7byicSicZQdyHa7O9MlrlRkEEvSPRw/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">点击“安装”按钮，会提示输入手机密码，然后确认安装。<br><img src="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxp1RTrdy3icawiaXF8Ta1bpxqKo98B7eFOtaMqwibTNuwdW7SLMcBxgk9g/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt="">以上便完成手机SSL证书安装步骤。</p>
+<ol>
+<li>在Charles工具栏上点击设置按钮，选择“SSL Proxying Settings…”</li>
+</ol>
+<p>打开“SSL Proxying Settings”对话框</p>
+<p><img src="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxVPFhbl6z5UzkHuAalic4CJsfKyx8ko7AxGVZ38u1PKedGrRWA7tOwaw/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br>点击“Add”添加：Host中输入*表示匹配所有主机。https默认端口号：443<br><img src="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxXJNBVXLmvalKClf7HeJOiajnXdAr4RvejXicIqHxsg2zo9yhNxmicRVqg/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""><br>添加完成显示结果如下<br><img src="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxU5HRpOricelNSYGLUWGlaOLMzFVB0EV6cj0a7ZibZib34KTgvibjiay4G9g/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""></p>
+<ol>
+<li>测试</li>
+</ol>
+<ul>
+<li><p>安装手机证书之前测试结果如下图所示<br><img src="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbxDic8ibNgKXicbXibRhE5dw7PicQFJ55DZJzY5zylSkwusfqK7zz5syRmpzQ/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""></p>
+</li>
+<li><p>安装手机证书之后测试结果如下图所示：<br><img src="http://mmbiz.qpic.cn/mmbiz_jpg/foPACGrddJ003YpewINAGSUfQNKAYEbx6j7Xjf7dDkFEAHZ9icDpv17J04Gh7LmhPGyYKskHO6MHBexfViatSLUg/640?wx_fmt=jpeg&amp;wxfrom=5&amp;wx_lazy=1" alt=""></p>
+</li>
+</ul>
+<p>针对Charles代理访问https有些正常有些失败的处理方法（一般https只要打开charles 的”Enable SSL Proxying”代理就能访问）</p>
+<h2 id="如果没有Wifi，我们还可以这样抓包？（本文不做详解）">如果没有Wifi，我们还可以这样抓包？（本文不做详解）</h2><ol>
+<li>抓包之rvictl方式</li>
+</ol>
+<ul>
+<li>开启虚拟端口：<code>rvictl -s</code></li>
+<li>关闭虚拟端口：<code>rvictl -x</code></li>
+<li>然后使用<code>wireshark</code>来捕捉这个端口数据。</li>
+</ul>
+<ol>
+<li>抓包之tcpdump方式<br>有个很大的缺点是手机需要越狱。</li>
+</ol>
+</span>
       
     </div>
 
@@ -342,9 +401,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/WordCloud/" rel="tag">WordCloud</a>
+            <a href="/tags/https/" rel="tag">https</a>
           
-            <a href="/tags/javascript/" rel="tag">javascript</a>
+            <a href="/tags/ios/" rel="tag">ios</a>
           
         </div>
       
@@ -353,13 +412,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/07/27/zookeeper教程/" rel="next" title="zookeeper教程">
+                <i class="fa fa-chevron-left"></i> zookeeper教程
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2015/12/04/Swig-模版教程/" rel="prev" title="Swig 模版教程">
-                Swig 模版教程 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -375,23 +434,23 @@
       <div style="margin:0px auto; padding-left:23px; text-align:center;">
         <script type="text/javascript" id="wumiiRelatedItems"></script>
         <script type="text/javascript">
-        var wumiiPermaLink = "http://imjun.me/2015/12/03/beautiful-word-cloud/"; //请用代码生成文章永久的链接
+        var wumiiPermaLink = "http://imjun.me/2016/11/23/IOS抓包工具/"; //请用代码生成文章永久的链接
         var global_tags = [];
         
           
-          global_tags.push('WordCloud');
+          global_tags.push('https');
           
-          global_tags.push('javascript');
+          global_tags.push('ios');
           
         
         var categories = [];
          
           
-          categories.push('前端');
+          categories.push('工具');
           
         
         wumiiTags = global_tags.join(',');
-        var wumiiTitle = "简单美观的文字标签云组件"; //请用代码生成文章标题
+        var wumiiTitle = "IOS抓包工具"; //请用代码生成文章标题
         // wumiiTags =; //请用代码生成文章标签，以英文逗号分隔，如："标签1,标签2"
         var wumiiCategories = categories;
         //var wumiiCategories = [[object Object]]; //请用代码生成文章分类，分类名放在 JSONArray 中，如: ["分类1", "分类2"]
@@ -409,10 +468,10 @@
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2015/12/03/beautiful-word-cloud/"
-     data-title="简单美观的文字标签云组件"
+        <div class="ds-share flat" data-thread-key="2016/11/23/IOS抓包工具/"
+     data-title="IOS抓包工具"
      data-content=""
-     data-url="http://imjun.me/2015/12/03/beautiful-word-cloud/">
+     data-url="http://imjun.me/2016/11/23/IOS抓包工具/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -449,8 +508,8 @@
     </blockquote>
     <ul class="ds-recent-visitors" data-num-items="36" data-avatar-size="30" id="ds-recent-visitors">
     </ul>  
-      <div class="ds-thread ds-thread-count" data-thread-key="2015/12/03/beautiful-word-cloud/"
-           data-title="简单美观的文字标签云组件" data-url="http://imjun.me/2015/12/03/beautiful-word-cloud/" >
+      <div class="ds-thread ds-thread-count" data-thread-key="2016/11/23/IOS抓包工具/"
+           data-title="IOS抓包工具" data-url="http://imjun.me/2016/11/23/IOS抓包工具/" >
 
       </div>
      
@@ -616,7 +675,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#如何抓取Http请求？"><span class="nav-number">1.</span> <span class="nav-text">如何抓取Http请求？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如何抓取Https请求?"><span class="nav-number">2.</span> <span class="nav-text">如何抓取Https请求?</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#如果没有Wifi，我们还可以这样抓包？（本文不做详解）"><span class="nav-number">3.</span> <span class="nav-text">如果没有Wifi，我们还可以这样抓包？（本文不做详解）</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
